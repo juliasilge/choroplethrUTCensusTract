@@ -118,7 +118,7 @@ convert_acs_obj_to_df = function(acs.data, column_idx)
 #' # aggregate public assistance income, salt lake
 #' ut_tract_choropleth_acs("B19067", county_zoom=49035)
 #' }
-ut_tract_choropleth_acs = function(tableId, endyear=2011, span=5, num_colors=7, tract_zoom=NULL, county_zoom=NULL)
+ut_tract_choropleth_acs = function(tableId, endyear=2013, span=5, num_colors=7, tract_zoom=NULL, county_zoom=NULL)
 {
         acs.data = get_ut_tract_acs_data(tableId, endyear, span)
         ut_tract_choropleth(acs.data[['df']], acs.data[['title']], "", num_colors, tract_zoom, county_zoom)

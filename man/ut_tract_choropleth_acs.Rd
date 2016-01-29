@@ -4,7 +4,7 @@
 \alias{ut_tract_choropleth_acs}
 \title{Create a choropleth map of Utah Census Tracts from ACS data}
 \usage{
-ut_tract_choropleth_acs(tableId, endyear = 2011, span = 5, num_colors = 7,
+ut_tract_choropleth_acs(tableId, endyear = 2013, span = 5, num_colors = 7,
   tract_zoom = NULL, county_zoom = NULL)
 }
 \arguments{

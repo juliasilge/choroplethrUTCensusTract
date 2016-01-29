@@ -34,13 +34,13 @@ Create a choropleth of US Census Tracts in Utah
 # zoom in on Salt Lake, which has FIPS code 49035
 data(df_pop_ut_tract)
 ut_tract_choropleth(df_pop_ut_tract,
-                    title  = "2012 Salt Lake Census Tract\\n Population Estimates",
+                    title  = "2013 Salt Lake Census Tract\\n Population Estimates",
                     legend = "Population",
                     county_zoom = 49035)                  
 
 # add a reference map
 ut_tract_choropleth(df_pop_ut_tract,
-                    title  = "2012 Salt Lake Census Tract\\n Population Estimates",
+                    title  = "2013 Salt Lake Census Tract\\n Population Estimates",
                     legend        = "Population",
                     county_zoom   = 49035,
                     reference_map = TRUE)                  
@@ -48,7 +48,7 @@ ut_tract_choropleth(df_pop_ut_tract,
 \dontrun{
 
 ut_tract_choropleth(df_pop_ut_tract,
-                    title  = "2012 Utah Census Tract\\n Population Estimates",
+                    title  = "2013 Utah Census Tract\\n Population Estimates",
                     legend = "Population")
 
 # 2013 per capita income estimate
