@@ -2,7 +2,8 @@ Package: choroplethrUTCensusTract
 Title: Shapefile, Metadata, and Visualization Functions for US Census Tracts in
     Utah
 Version: 0.0.0.9000
-Author: Julia Silge
+Creator: Ari Lamstein [cre]
+Author: Julia Silge [aut]
 Maintainer: Julia Silge <julia.silge@gmail.com>
 Description: Based on Ari Lamstein's choroplethrCaCensusTract package. The
     shapefile is taken from the US Census Bureau's 2010 Cartographic
