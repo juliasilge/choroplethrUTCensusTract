@@ -13,3 +13,7 @@ library(devtools)
 install_github("juliasilge/choroplethrUTCensusTract")
 library(choroplethrUTCensusTract)
 ```
+
+## An Example Choropleth Map
+
+![Example Choropleth Map](./hispanicpopulation.png)
