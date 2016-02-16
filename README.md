@@ -14,6 +14,6 @@ install_github("juliasilge/choroplethrUTCensusTract")
 library(choroplethrUTCensusTract)
 ```
 
-## An Example Choropleth Map
+## How to Use This Package
 
-![Example Choropleth Map](./hispanicpopulation.png)
+Check out the [vignette for this package on RPubs](http://rpubs.com/juliasilge/153515). For help within R, try `?ut_tract_choropleth` for getting started with the main visualization function.
