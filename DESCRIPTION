@@ -21,5 +21,6 @@ Imports:
     dplyr,
     acs
 Depends:
+    R (>= 2.15.0),
     choroplethr (>= 3.3.0)
 RoxygenNote: 5.0.1
