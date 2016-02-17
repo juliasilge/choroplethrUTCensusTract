@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/juliasilge/choroplethrUTCensusTract.svg?branch=master)](https://travis-ci.org/juliasilge/choroplethrUTCensusTract)
+
 # choroplethrUTCensusTract
 Shapefile, Metadata, and Visualization Functions for US Census Tracts in Utah
 
